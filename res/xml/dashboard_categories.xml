@@ -220,6 +220,14 @@
             android:id="@+id/personal_section"
             android:title="@string/header_category_personal" >
 
+        <!-- AOSB rom box -->
+        <dashboard-tile
+                android:id="@+id/aosb_custom_settings"
+                android:title="@string/aosb_custom_title"
+                android:fragment="com.android.settings.aosb.CustomSettings"
+                android:icon="@drawable/ic_settings_system"
+                />
+
         <!-- Home -->
         <dashboard-tile
                 android:id="@+id/home_settings"
